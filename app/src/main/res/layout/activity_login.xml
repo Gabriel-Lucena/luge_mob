@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+
+        android:orientation="vertical"
+
+
+        tools:context=".Login"
+        >
+
+        <TextView
+            style="@style/title_login"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:text="@string/title_activity_login"
+            android:textColor="#424242" />
+
+        <EditText
+            android:id="@+id/username"
+            style="@style/editText_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/placeholder_1_login"
+            android:inputType="text"
+            android:autofillHints="username" />
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/editText_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/placeholder_2_login"
+            android:inputType="textPassword"
+            android:autofillHints="password"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:text="@string/forgot_password_login"
+
+                android:layout_marginEnd="50dp"
+                android:layout_marginStart="25dp"
+
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_user_login"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

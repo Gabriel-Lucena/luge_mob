@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Luge</string>
+
+    <string name="title_activity_login">Login</string>
+
+    <string name="placeholder_1_login">Username</string>
+    <string name="placeholder_2_login">Password</string>
+
+    <string name="forgot_password_login">Forgot my Password</string>
+    <string name="create_user_login">Sing Up</string>
+
+</resources>
