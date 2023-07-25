@@ -9,5 +9,6 @@
 
     <string name="forgot_password_login">Forgot my Password</string>
     <string name="create_user_login">Sing Up</string>
+    <string name="title_activity_tasks">Tasks</string>
 
 </resources>

@@ -7,7 +7,6 @@
         <item name="android:layout_marginEnd">30dp</item>
         <item name="android:layout_marginBottom">40dp</item>
         <item name="android:background">#FF9800</item>
-<!--        <item name="textFillColor">@android:color/white</item>-->
         <item name="android:text">@android:color/white</item>
         <item name="android:padding">28dp</item>
         <item name="android:gravity">center</item>
